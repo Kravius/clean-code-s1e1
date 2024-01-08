@@ -4,21 +4,22 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+
+.conteiner-logo {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.conteiner-logo img {
     width: 100%;
 }
-.aaa .more_inf {
+.conteiner-logo .more_inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.conteiner-logo { text-align: center;
 }
 }
 .centered-main-page-element {
@@ -54,7 +55,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
 /* Heading */
 h3,
@@ -73,8 +74,8 @@ input[type="text"] {
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
@@ -93,7 +94,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+    li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
